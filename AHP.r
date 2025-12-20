@@ -1,4 +1,4 @@
-
+# Código en R para calcular sensibilidad en el método analítico jerárquico AHP 
 library(AHPtools)
 
 # Nombres
@@ -243,5 +243,6 @@ ahp_sensitivity <- function(W_alts, w_crit, crit_name,
   rownames(out) <- NULL
   out
 }
+
 
 
